@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CX Durlin - Web Developer & Designer</title>
+    <link rel="stylesheet" href="STYLE.CSS">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="nav">
+        <div class="menu">
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="main" id="home">
+        <h1>Hi, I'm Durlin</h1>
+        <div class="profile-wrapper">
+            <span class="code-bracket">&lt;</span>
+            <div class="profile-container">
+                <img src="profile.jpg" alt="CX Durlin Profile Picture">
+                <div class="code-overlay">
+                    <div class="code-line">const durlin = {</div>
+                    <div class="code-line indent">role: "Developer",</div>
+                    <div class="code-line indent">skills: ["Web", "Design"],</div>
+                    <div class="code-line indent">passion: "Building Websites",</div>
+                    <div class="code-line">};</div>
+                </div>
+            </div>
+            <span class="code-bracket">/&gt;</span>
+        </div>
+        <h2>Web Developer & Digital Solutions Expert</h2>
+        <p>Crafting beautiful, responsive websites that convert visitors into customers. Let's build something amazing together.</p>
+        <button class="btn" onclick="scrollToSection('contact')">Let's Talk</button>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I'm CX Durlin, a passionate web developer with expertise in creating modern, user-friendly websites. I specialize in building custom solutions that help businesses establish a strong online presence and achieve their goals.</p>
+            <div class="skills">
+                <div class="skill-card">
+                    <h3>Web Design</h3>
+                    <p>Creating stunning, responsive designs that engage users and drive conversions.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Web Development</h3>
+                    <p>Building fast, secure, and scalable websites using modern technologies.</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Digital Marketing</h3>
+                    <p>Optimizing your site for search engines and user experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2>Services</h2>
+            <div class="service-grid">
+                <div class="service-item">
+                    <h3>🎨 Website Design</h3>
+                    <p>Custom, modern website designs tailored to your brand and audience.</p>
+                </div>
+                <div class="service-item">
+                    <h3>💻 Full-Stack Development</h3>
+                    <p>Complete web solutions from frontend to backend with cutting-edge technologies.</p>
+                </div>
+                <div class="service-item">
+                    <h3>📱 Responsive Web Design</h3>
+                    <p>Websites that look perfect on all devices - desktop, tablet, and mobile.</p>
+                </div>
+                <div class="service-item">
+                    <h3>⚡ Performance Optimization</h3>
+                    <p>Fast-loading sites that rank better and keep users engaged.</p>
+                </div>
+                <div class="service-item">
+                    <h3>🔒 Secure Solutions</h3>
+                    <p>Built with security best practices to protect your data and customers.</p>
+                </div>
+                <div class="service-item">
+                    <h3>🚀 E-Commerce</h3>
+                    <p>Powerful online stores with payment integration and inventory management.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Let's Work Together</h2>
+            <p>Ready to transform your business online? Get in touch today!</p>
+            <div class="contact-content">
+                <div class="contact-form-wrapper">
+                    <form class="contact-form">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                        <textarea placeholder="Tell me about your project" rows="5" required></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info-wrapper">
+                    <div class="contact-info">
+                        <p>📧 Email: muindibrian01@gmail.com</p>
+                        <p>📱 Phone: +254701283070</p>
+                        <p>💼 LinkedIn | GitHub | Twitter</p>
+                    </div>
+                    <div class="map-container">
+                        <iframe src="https://maps.app.goo.gl/aHCDZSs9B9eSr8xj9" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 CX Durlin. All rights reserved. | Web Developer & Digital Solutions</p>
+    </footer>
+
+    <script>
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+        }
+    </script>
+</body>
+</html>
